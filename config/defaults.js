@@ -30,7 +30,7 @@ define({
     //Template-specific properties in AGOL configuration
     "title": "Critical Urban Freight Corridors",
     "titleIcon": "images/banner.png",
-    "displayText": "<b>Welcome to the Crowdsource Polling application</b><p>Use Crowdsource Polling to provide information and collect feedback on plans and issues around your community.</p><p>Search for a location or click an item in the list to get started.</p>",
+    "displayText": "<b>Critical Urban Freight Corridor Feedback</b><p>Help us verify the freight network in the Pennsylvania counties of the DVRPC region.</p><p>Give them info about that ish.</p>",
     "color": "#206bdb",
     "featureLayer": {
         "id": "LandUseCasesVotesComments_8488",
@@ -48,9 +48,9 @@ define({
     "facebookAppId": "",
     "allowGoogle": false,
     "googleplusClientId": "",
-    "allowTwitter": true,
+    "allowTwitter": false,
     "socialMediaDisclaimer": "Choose how you would like to sign in to this application. The name associated with your social media account will be added to any comments you post.",
-    "showDisplayTextAsSplashScreen": false,
+    "showDisplayTextAsSplashScreen": true,
     // Setup the app to support a custom url parameter. Use this if you want users
     // to be able to search for a string field in a layer. For example if the web map
     // has parcel data and you'd like to be able to zoom to a feature using its parcel id
