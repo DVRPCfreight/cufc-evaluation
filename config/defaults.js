@@ -22,7 +22,7 @@ define({
     "webmap": "56197689ee7e4a8aa9f0d8da09ffe721",
     "oauthappid": "bvjV5a390uKS3KaY", //"AFTKRmv16wj14N3z",
     //Group templates must support a group url parameter. This will contain the id of the group.
-    "group": "5ae4a74c122643dcaa8b1e2debd88492",
+    "group": "",
     //Enter the url to the proxy if needed by the application. See the 'Using the proxy page' help topic for details
     //http://developers.arcgis.com/en/javascript/jshelp/ags_proxy.html
     "proxyurl": "proxy/proxy.ashx",
