@@ -33,7 +33,7 @@ define({
     "displayText": "<b>Critical Urban Freight Corridor Feedback</b><p>Help us verify the freight network in the Pennsylvania counties of the DVRPC region.</p><p>Give them info about that ish.</p>",
     "color": "#206bdb",
     "featureLayer": {
-        "id": "cufc_VoteComments",
+        "id": "Comments",
         "fields": [{
             "id": "sortField",
             "fields": ["NAME"]
