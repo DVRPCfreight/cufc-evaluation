@@ -120,7 +120,15 @@
                             '<li> <div class="dvrpc-legend-line cufc-line"></div>critical urban freight corridor (proposed)</li>'+
                             '<li> <div class="dvrpc-fc-swatch"></div>freight center</li>'+
                         '</ul></div>';
-    dojo.place(dvrpcLegend, "#mapDiv");
+
+    mapParent = document.getElementById("mapDiv");
+    theKid = document.createElement("div");
+    theKid.innerHTML = dvrpcLegend;
+
+    // append theKid to the end of theParent
+    theParent.appendChild(theKid);
+
+
    
   </script>
 </body>
