@@ -1040,6 +1040,62 @@ img {
     display:none;
 }
 
+.itemDetail .itemDescription{
+    color: #5d5d5d;
+}
+
+#c-map-legend {
+    z-index: 1000;
+    bottom: 10px;
+    left: 15px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #989797;
+    box-shadow: 0 0 10px #b7b7b7;
+    font-size: 24px;
+    color: #396AB2;
+    transition: all .3s ease-out;
+    overflow: hidden
+}
+
+#c-map-legend:hover {
+    box-shadow: none;
+    cursor: pointer;
+    color: #7CA0D5
+}
+
+#c-map-legend ul {
+    padding-top: 12px;
+    list-style: none;
+    font-size: 12px;
+    color: #636363;
+    padding-left: 20px;
+    line-height: 20px
+}
+
+#c-map-legend .dvrpc-fc-swatch {
+    width: 14px;
+    height: 14px;
+    margin: 2px 14px 0 4px;
+    background-color: #ff7f7f;
+    border: 1px solid #ff7f7f
+}
+
+#c-map-legend .dvrpc-legend-line {
+    height: 12px;
+    
+}
+
+.nhfs-line {
+    border-bottom: 2px solid #0084A8;
+}
+
+.cufc-line {
+    border-bottom: 4px solid #FFAA00;
+}
 
 @media (min-width: 768px) {
     .col-sm-10 {

@@ -111,6 +111,18 @@
         myApp.reportError(error);
       });
     });
+
+
+    var dvrpcLegend = '<div id="c-map-legend" class="open" style="width: 240px; height: 145px; border-radius: 4px 20px 4px 4px;">'+
+                        '<div id="c-legend-icon">Legend</div>'+
+                        '<ul class="c-legend-list" style="display: block;">'+
+                            '<li> <div class="dvrpc-legend-line nhfs-line"></div>national highway freight system</li>'+
+                            '<li> <div class="dvrpc-legend-line cufc-line"></div>critical urban freight corridor (proposed)</li>'+
+                            '<li> <div class="dvrpc-fc-swatch"></div>freight center</li>'+
+                        '</ul></div>';
+    $('#mapDiv').append(dvrpcLegend);
+
+
   </script>
 </body>
 
