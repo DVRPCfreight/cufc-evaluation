@@ -821,7 +821,7 @@ label.css-label
     overflow: hidden;
 }
 .popupContent {
-    margin: 10px;
+        margin: 10px 25px;
     overflow:auto;
 }
 .popupImgContent {
@@ -838,9 +838,9 @@ img {
 .popupClose {
     display: none;
     position: absolute;
-    top: 0px;
+    top: 10px;
     bottom: 0px;
-    right: 0px;
+    right: 10px;
     width: 20px;
     height: 24px;
     padding: 4px;
@@ -1054,7 +1054,6 @@ img {
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #989797;
-    box-shadow: 0 0 10px #b7b7b7;
     font-size: 24px;
     color: #396AB2;
     transition: all .3s ease-out;
