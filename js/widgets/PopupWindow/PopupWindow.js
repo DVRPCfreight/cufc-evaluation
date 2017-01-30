@@ -156,8 +156,9 @@ define([
             // };
             domStyle.set(this.domNode, styleAttrs);
 
-
+            console.log(widgetHeight);
             // Set the popup widget's content's dimensions so that its scrollbars work properly
+            
             contentHeight = (widgetHeight - (this.displayTitle.length === 0 ?
                 20 :
                 32) - 22) + "px"; // title + top & bottom margins

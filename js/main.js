@@ -710,7 +710,7 @@ define([
                     "showClose": true,
                     "maxima": {
                         "width": 800,
-                        "height": 600
+                        "height": 800
                     }
                 }).placeAt(document.body);
 
